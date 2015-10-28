@@ -12,7 +12,7 @@ Using "Depth-first Search" to search every node<br>
 The create data table sql<br>
 資料表產生語法<br>
 
-CREATE TABLE MyGuests (<br>
+CREATE TABLE node (<br>
 id INT(64) UNSIGNED AUTO_INCREMENT PRIMARY KEY,<br>
 title VARCHAR(128) NOT NULL,<br>
 parent int(64) NOT NULL,<br>
